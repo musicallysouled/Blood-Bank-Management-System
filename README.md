@@ -33,7 +33,9 @@ Entities required:
 - Attributes: city_ID (Primary Key), city_name
 - Purpose: Stores city information for donors, recipients, and hospitals. City_ID serves as a unique identifier, and city names are recorded within this entity.
 
-###Triggers
+### Stored Procedures
+Nine stored procedures (MODIFY_BLOOD_DONOR, MODIFY_RECEPIENT, MODIFY_RECORDING_STAFF, MODIFY_BLOOD_SPECIMEN, MODIFY_SAMPLE_CHECK, MODIFY_BB_MANAGER, MODIFY_HOSPITAL_INFO_1, MODIFY_HOSPITAL_INFO_2 and MODIFY_CITY) for the respective tables (Bllod_Donor, Recipient, Recording_Staff, BB_BLOOD_SPECIMEN, sample_check_table, BB_Manager, HospitalL_Info_1, HospitalL_Info_2 and city_table) to modify the tables (insert, update or delete).
+### Triggers
 1. Three triggers (welcome_donor, welcome_recipient, and welcome_hospital) are created, each associated with the respective tables (Blood_Donor, Recipient, and Hospital_Info).
 2. The triggers fire AFTER an INSERT operation on their respective tables.
 3. Inside each trigger, a welcome message is constructed based on the newly inserted data (bd_name, reci_name, or hosp_name).
