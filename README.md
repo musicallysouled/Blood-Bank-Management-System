@@ -32,3 +32,9 @@ Entities required:
 8. City
 - Attributes: city_ID (Primary Key), city_name
 - Purpose: Stores city information for donors, recipients, and hospitals. City_ID serves as a unique identifier, and city names are recorded within this entity.
+
+###Triggers
+1. Three triggers (welcome_donor, welcome_recipient, and welcome_hospital) are created, each associated with the respective tables (Blood_Donor, Recipient, and Hospital_Info).
+2. The triggers fire AFTER an INSERT operation on their respective tables.
+3. Inside each trigger, a welcome message is constructed based on the newly inserted data (bd_name, reci_name, or hosp_name).
+4. The PRINT statement here, is used to demonstrate the message generation (in a real-world scenario, it is replaced with the actual code to send messages, such as using an email service or SMS gateway.)
