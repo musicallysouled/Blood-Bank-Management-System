@@ -1,5 +1,7 @@
 # Blood Bank Management System: Schema
 --------------------------------------------------------------------
+![image](https://github.com/musicallysouled/Blood-Bank-Management-System/assets/88243330/c86e18a3-3aa9-407c-a9c0-926ccf23a00f)
+
 Blood_Specimen
 -----
 Spec_no PK int IDENTITY
