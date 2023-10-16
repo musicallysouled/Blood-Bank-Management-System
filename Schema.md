@@ -1,7 +1,7 @@
 # Blood Bank Management System: Schema
 --------------------------------------------------------------------
 ![image](https://github.com/musicallysouled/Blood-Bank-Management-System/assets/88243330/3c67f6a8-12a5-4a8a-a7c1-93e9367ae5f9)
-(using quick dbd)
+(using quick database diagram to present the schema as above)
 
 Blood_Specimen
 -----
